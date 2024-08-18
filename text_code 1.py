@@ -7,17 +7,24 @@ def name(one, two):
     
 # end def
 
-def fibonaci(x):
-    if x <= 0:
+def fibonacci(n):
+    if n <= 0:
         return "Input should be a positive integer."
-    elif x == 1:
+    elif n == 1:
         return 0
-    elif x == 2:
+    elif n == 2:
         return 1
     else:
         a, b = 0, 1
-        for _ in range(2, x):
+        for _ in range(2, n):
             a, b = b, a + b
         return b
 
+# hala inaro zadam to branch fibo
 
+
+
+def counter(x):
+    for i in x:
+        print(i)
+# end def
