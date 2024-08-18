@@ -6,3 +6,18 @@ def name(one, two):
     """
     
 # end def
+
+def fibonaci(x):
+    if x <= 0:
+        return "Input should be a positive integer."
+    elif x == 1:
+        return 0
+    elif x == 2:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(2, x):
+            a, b = b, a + b
+        return b
+
+
