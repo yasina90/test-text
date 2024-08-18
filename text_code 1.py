@@ -24,3 +24,7 @@ def fibonacci(n):
 
 
 
+def counter(x):
+    for i in x:
+        print(i)
+# end def
